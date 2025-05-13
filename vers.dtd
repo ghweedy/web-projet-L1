@@ -1,24 +1,15 @@
-<!ELEMENT html (head, body)>
-<!ATTLIST html xmlns CDATA #REQUIRED>
+<!ELEMENT collection (fiche+)>
+<!ELEMENT fiche (titre, image, resume?, contenu)>
+<!ATTLIST fiche
+  id ID #REQUIRED
+  categorie (Politique|Diplomatie|Tourisme) #REQUIRED>
 
-<!ELEMENT head (meta*, title, link*)>
-<!ELEMENT meta EMPTY>
-<!ATTLIST meta charset CDATA #IMPLIED
-              http-equiv CDATA #IMPLIED
-              content CDATA #IMPLIED>
-<!ELEMENT title (#PCDATA)>
-<!ELEMENT link EMPTY>
-<!ATTLIST link rel CDATA #IMPLIED
-              type CDATA #IMPLIED
-              href CDATA #IMPLIED>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT image EMPTY>
+<!ATTLIST image
+  src CDATA #REQUIRED
+  title CDATA #REQUIRED>
 
-<!ELEMENT body (header, main)>
-<!ELEMENT header (h1)>
-<!ELEMENT h1 (#PCDATA)>
-
-<!ELEMENT main (section+)>
-<!ELEMENT section (h2, article+)>
-<!ELEMENT h2 (#PCDATA)>
-<!ELEMENT article (h3, p)>
-<!ELEMENT h3 (#PCDATA)>
-<!ELEMENT p (#PCDATA)>
+<!ELEMENT resume (#PCDATA)>
+<!ELEMENT contenu (paragraphe+)>
+<!ELEMENT paragraphe (#PCDATA)>
