@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE collection SYSTEM "vers.dtd">
+<collection>
+  <fiche id="fiche1" categorie="Politique">
+    <titre>Les usages politiques de Versailles</titre>
+    <image src="https://architectureguru.ru/wp-content/uploads/2021/01/palace-of-versailles-in-france-1.jpg" title="Politique"/>
+    <resume>Le château devient un symbole de la monarchie absolue et est transformé en musée d'histoire.</resume>
+    <contenu>
+      <paragraphe>Le château de Versailles, construit par Louis XIII comme domaine de chasse, devient le symbole du pouvoir absolu sous Louis XIV en 1682.</paragraphe>
+      <paragraphe>Pendant la Révolution, Versailles est vidé, puis devient un musée sous Louis-Philippe. Plus tard, il devient un lieu républicain et accueille les Congrès.</paragraphe>
+    </contenu>
+  </fiche>
+
+  <fiche id="fiche2" categorie="Diplomatie">
+    <titre>Versailles, haut lieu de la diplomatie française</titre>
+    <image src="https://4room.ua/files/images/45067_5cd054bd1d618.jpg" title="Diplomatie"/>
+    <resume>Utilisé pour sceller des alliances comme avec la Reine Victoria ou lors du traité de Versailles en 1919.</resume>
+    <contenu>
+      <paragraphe>Versailles est utilisé comme outil diplomatique sous Napoléon III, notamment pour recevoir la Reine Victoria et le Tsar Nicolas II.</paragraphe>
+      <paragraphe>En 1919, le traité de Versailles est signé dans la galerie des Glaces. Le château est aussi utilisé pour des sommets comme le G7.</paragraphe>
+    </contenu>
+  </fiche>
+
+  <fiche id="fiche3" categorie="Tourisme">
+    <titre>Rendre Versailles aux Français</titre>
+    <image src="https://www.paris-tickets.com/wp-content/uploads/2023/04/versailles1.jpg" title="Tourisme"/>
+    <resume>Le château restauré devient un symbole touristique majeur et un site classé UNESCO.</resume>
+    <contenu>
+      <paragraphe>Grâce à Pierre de Nolhac et John Rockefeller, Versailles est restauré. Le projet Grand Versailles modernise le site.</paragraphe>
+      <paragraphe>Devenu haut lieu du tourisme culturel, Versailles attire plus de 8 millions de visiteurs par an.</paragraphe>
+    </contenu>
+  </fiche>
+</collection>
