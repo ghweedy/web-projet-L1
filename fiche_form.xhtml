@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Formulaire de fiche</title>
+    <link rel="stylesheet" type="text/css" href="../../Styles/style.css" title="normal" />
+    <link rel="alternate stylesheet" type="text/css" href="../../Styles/style2.css" title="accessible" disabled="disabled" />
+  </head>
+  <body>
+    <header><h1>Créer une nouvelle fiche</h1></header>
+    <main>
+      <form method="get" action="http://voca2.univ-poitiers.fr/traitement.php">
+        <p><label for="titre">Titre : </label><input type="text" name="titre" id="titre" /></p>
+        <p><label for="categorie">Catégorie : </label>
+          <select name="categorie" id="categorie">
+            <option>Politique</option>
+            <option>Diplomatie</option>
+            <option>Tourisme</option>
+          </select>
+        </p>
+        <p><label for="contenu">Contenu : </label><textarea name="contenu" id="contenu" rows="5" cols="40"></textarea></p>
+        <p><input type="submit" value="Envoyer" /></p>
+        <input type="hidden" id="userAgentInformations" name="userAgentInformations" />
+    <button id="summaryBtn" type="button">Afficher le récapitulatif</button>
+  </form>
+  <div id="form-summary" style="margin-top:2em;"></div>
+    </main>
+  <script src="E:/code30/webtest/SITE_TOTSKYI_HLIB/Code/Javascript/script1.js"></script>
+  <script src="E:/code30/webtest/SITE_TOTSKYI_HLIB/Code/Javascript/time.js"></script>
+</body>
+</html>
